@@ -3,7 +3,7 @@ body {
 }
 
 .carousel-inner {
-    height: 560px;
+    max-height: 560px;
     width: 100%;
     overflow: hidden;
 }
