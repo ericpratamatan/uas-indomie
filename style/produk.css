@@ -2,11 +2,10 @@
             max-width: 200px;
         }
 
-        .link-footer a {
-            text-decoration: none;
-            color: black;
-        }
-
         .text {
             text-align: justify;
         }
+.link-social-media a {
+    text-decoration: none;
+    color: black;
+}
