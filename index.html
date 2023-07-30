@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Indomie</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-danger shadow p-3 sticky-top">
+        <div class="container d-flex align-item-center">
+            <a class="navbar-brand " href="#"><img src="img/logo.png" alt="" width="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="tentang kami.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Produk
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="produk mi goreng.html">Indomie Goreng</a></li>
+                            <li><a class="dropdown-item" href="produk mi kuah.html">Indomie Kuah</a></li>
+                            <li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- Carousel start -->
+    <div class="container-full mt-2 mb-5">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/indomie_ramen_edition.jpg" class="d-block img-carousel" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/02112021_banner.jpg" class="d-block img-carousel" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/04112015_banner_history.jpg" class="d-block img-carousel" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel end -->
+
+    <!-- produk start -->
+    <div class="container-fluid mb-5    ">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="mb-5">Produk Utama Kami</h2>
+            </div>
+        </div>
+        <div class="container-fluid"></div>
+        <div class="row mb-5">
+            <div class="col-2"></div>
+            <div class="col-4 d-flex justify-content-center produk img flex-column align-items-center card-produk">
+                <button type="button" class="btn text-capitalize m-2" data-bs-toggle="modal" data-bs-target="#original">
+                    <div class="me-3 ms-3"><img src="img/indomie-mi-goreng-.png" alt="">
+                        <h4>Indomie Mi Goreng</h4>
+                    </div>
+                </button>
+            </div>
+            <div class="modal fade" id="original" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Indomie Mi Goreng</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body d-flex p-5 bg-danger text-white">
+                            <img src="img/indomie-mi-goreng-ori.png" alt="" class="me-3">
+                            <div class="text">
+                                <h2 class="text-capitalize mb-5">indomie mi goreng</h2>
+                                <p>Indomie Mi Goreng adalah Indomie paling populer di seluruh dunia. Terbuat dari
+                                    tepung
+                                    berkualitas
+                                    tinggi dan bahan-bahan serta rempah-rempah pilihan, sepiring Indomie Mi Goreng akan
+                                    membuat
+                                    cerah harimu.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center produk img flex-column align-items-center card-produk">
+                <button type="button" class="btn text-capitalize m-2" data-bs-toggle="modal"
+                    data-bs-target="#kuahoriginal">
+                    <div class="me-3 ms-3"><img src="img/indomie-chicken-flavor_.png" alt="">
+                        <h4>Indomie Mi Kuah Ayam</h4>
+                    </div>
+                </button>
+            </div>
+            <div class="modal fade" id="kuahoriginal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Indomie Mi Kuah Rasa Ayam</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body d-flex p-5 bg-danger text-white">
+                            <img src="img/indomie-chicken.png" alt="" class="me-3">
+                            <div class="text">
+                                <h2 class="text-capitalize mb-5">indomie mi kuah rasa ayam</h2>
+                                <p>Indomie Rasa Ayam adalah varian Indomie pertama yang melegenda. Rasanya yang nikmat,
+                                    hangat,
+                                    dan gurih, mengingatkan Anda pada cita rasa sup ayam rumahan yang klasik.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row d-flex">
+            <div class="col-2"></div>
+            <div class="col-4 d-flex justify-content-center"><a href="produk mi goreng.html"><button type="button"
+                        class="btn btn-danger icon-button">Lihat Semua
+                        Produk <i class="fa fa-arrow-right bi"></i></button></a></div>
+            <div class="col-4 d-flex justify-content-center"><a href="produk mi kuah.html"><button type="button"
+                        class="btn btn-danger icon-button">Lihat Semua
+                        Produk <i class="fa fa-arrow-right bi"></i></button></a></div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- produk end -->
+
+    <!-- Hubungi Kami start -->
+    <div class="container-fluid mt-5 pb-5 bg-danger">
+        <h2 class="mb-5 text-center text-white pt-5">Hubungi Kami</h2>
+        <div class="container d-flex flex-column d-grid gap-2 mx-auto">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="nama">
+                        <label for="floatingInput">Nama</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Nomor HP">
+                        <label for="floatingInput">Nomor HP</label>
+                    </div>
+                    <div class=" form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                        <label for="floatingInput">Email</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <textarea class="form-control" placeholder="Tinggalkan pesan di sini" id="floatingTextarea2"
+                            style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Pesan</label>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button type="button" class="btn btn-outline-light">Kirim</button>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Hubungi Kami end-->
+
+    <!-- footer start -->
+    <div class="container-fluid">
+        <div class="container-fluid pt-5 pb-5 mt-3">
+            <div class="row">
+                <div class="col-5">
+                    <h3>Alamat</h3>
+                    <p>
+                        Sudirman Plaza - Indofood Tower, 23rd floor. Jl. Jend. Sudirman, Kav. 76-78, Setiabudi, Jakarta
+                        Selatan-DKI Jakarta 12910, Indonesia
+                    </p>
+                </div>
+                <div class="col-5 d-flex flex-column link-social-media">
+                    <div class="row my-1">
+                        <div class="col-1">
+                            <i class="fa fa-facebook"></i>
+                        </div>
+                        <div class="col-3">
+                            <label for=""><a href="https://www.facebook.com/Indomie/?locale=id_ID">Indomie</a></label>
+                        </div>
+                    </div>
+                    <div class="row my-1">
+                        <div class="col-1">
+                            <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="col-3">
+                            <label for=""><a href="https://www.instagram.com/indomie/">indomie</a></label>
+                        </div>
+                    </div>
+                    <div class="row my-1">
+                        <div class="col-1">
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                        <div class="col-3">
+                            <label for=""><a href="https://twitter.com/indomielovers?lang=en">Indomie</a></label>
+                        </div>
+                    </div>
+                    <div class="row my-1">
+                        <div class="col-1">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="col-3">
+                            <label for=""><a href="">0800 18188</a></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-end">
+                    <img src="img/logo-indofood.png" alt="" width="200px">
+                </div>
+            </div>
+        </div>
+        <div class="row text-center text-light bg-dark p-3">
+            <div class="col">© 2023 Indomie. All Rights Reserved.</div>
+        </div>
+
+    </div>
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

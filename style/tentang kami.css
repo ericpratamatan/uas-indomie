@@ -1,0 +1,24 @@
+body {
+    height: 1000px;
+}
+
+.tentang img {
+    max-width: 600px;
+}
+
+.tentang p {
+    text-align: justify;
+}
+
+.sejarah p {
+    text-align: justify;
+}
+
+.link-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.sejarah img {
+    max-width: 450px;
+}

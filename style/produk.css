@@ -1,0 +1,12 @@
+        .produk-produk img {
+            max-width: 200px;
+        }
+
+        .link-footer a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .text {
+            text-align: justify;
+        }
